@@ -89,7 +89,7 @@ class Decoder(nn.Module):
 
     def __init__(self,
                  len_max_seq=hp.max_seq_len,
-                 d_word_vec=hp.encoder_hidden+256,
+                 d_word_vec=hp.encoder_hidden+hp.speaker_dim,
                  n_layers=hp.decoder_layer,
                  n_head=hp.decoder_head,
                  d_k=hp.decoder_hidden // hp.decoder_head,

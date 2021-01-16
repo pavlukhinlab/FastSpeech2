@@ -31,6 +31,7 @@ mel_fmax = 8000.0
 encoder_layer = 4
 encoder_head = 2
 encoder_hidden = 256
+speaker_dim = 256
 decoder_layer = 4
 decoder_head = 2
 decoder_hidden = 256
